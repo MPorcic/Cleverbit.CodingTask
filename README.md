@@ -11,4 +11,18 @@ This task has proven to be a lot of code in regards of implementing it in a SOLI
 
 I hope I have managed to show a proper architectural structure around the code both in the backend and in the frontend in this alloted time. 
 
+The backend contains: 
+Repositories and app services for three of the domains Match, MatchEntry, MatchResult
+The repositories only deal with database transactions meanwhile the app services are in charge of the business logic
+These repositories and app services have all been autoinjected
+
+The frontend contains:
+An angular 13 app with material angular
+http interceptor which authorizes the calls
+service which deals with the matches
+persistence of last played match
+authguard to check if someone is logged in
+
+I didn't have any left over time but I was going to finish writing the auth service which deals with user sessions.
+
 If there are any questions feel free to contact me 
