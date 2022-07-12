@@ -26,3 +26,5 @@ authguard to check if someone is logged in
 I didn't have any left over time but I was going to finish writing the auth service which deals with user sessions.
 
 If there are any questions feel free to contact me 
+
+*Edit:* There was a problem with git and angular project so I have transfered the contents to it straight in the angular folder
